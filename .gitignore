@@ -218,3 +218,36 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local AI development instructions, configuration, sessions and caches
+AGENTS.md
+AGENTS.override.md
+CLAUDE*.md
+GEMINI*.md
+CODEX*.md
+.ai/
+.codex/
+.claude/
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+.gemini/
+.aider*
+.continue/
+.windsurf/
+.windsurfrules
+.cline/
+.clinerules
+.roo/
+.roorules
+.opencode/
+.copilot/
+.agents/
+.agent/
+.skills/
+/.github/copilot-instructions.md
+/.github/instructions/
+/.github/prompts/
+/.github/agents/
+/.github/skills/
