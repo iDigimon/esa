@@ -16,10 +16,21 @@ Python 3.9 支持 Certbot 3/4，Python 3.10–3.13 支持 Certbot 3/4/5，Python
 
 ## 安装
 
-在实际运行 Certbot 的 Python 环境中，从源码安装：
+在实际运行 Certbot 的 Python 环境中，从 PyPI 安装：
+
+```bash
+pip install certbot-dns-esa
+```
+
+也可在项目源码目录中安装：
 
 ```bash
 pip install .
+```
+
+安装后检查插件是否可用：
+
+```bash
 certbot plugins --text
 ```
 
