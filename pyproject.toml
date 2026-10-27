@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "certbot-dns-esa"
-version = "1.0.1"
+version = "1.0.2"
 description = "阿里云边缘安全加速 ESA DNS 插件，用于 Certbot 的 DNS-01 验证"
 readme = "README.md"
 requires-python = ">=3.9"
