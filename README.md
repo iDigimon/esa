@@ -90,5 +90,3 @@ AccessKey 需具备 `AliyunESAFullAccess`，或包含以下操作的自定义 RA
 ## 自动部署
 
 本项目只负责 Certbot DNS 验证；申请后的自动部署可配合 [AutoCert](https://github.com/tiyee/AutoCert)。
-
-实现参考 [certbot-dns-aliyun-next](https://github.com/tiyee/certbot-dns-aliyun-next)。
