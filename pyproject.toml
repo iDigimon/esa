@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "certbot-dns-esa"
-version = "1.0.0"
+version = "1.0.1"
 description = "阿里云边缘安全加速 ESA DNS 插件，用于 Certbot 的 DNS-01 验证"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -40,9 +40,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tiyee/certbot-dns-esa"
-Repository = "https://github.com/tiyee/certbot-dns-esa"
-Issues = "https://github.com/tiyee/certbot-dns-esa/issues"
+Homepage = "https://github.com/iDigimon/esa"
+Repository = "https://github.com/iDigimon/esa"
+Issues = "https://github.com/iDigimon/esa/issues"
 
 [project.entry-points."certbot.plugins"]
 dns-esa = "certbot_dns_esa.dns_esa:Authenticator"
