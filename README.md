@@ -1,5 +1,8 @@
 # Certbot DNS 阿里云 ESA 插件
 
+[![PyPI version](https://badge.fury.io/py/certbot-dns-esa.svg)](https://badge.fury.io/py/certbot-dns-esa)
+[![Download count](https://img.shields.io/pypi/dm/certbot-dns-esa)](https://img.shields.io/pypi/dm/certbot-dns-esa)
+
 通过阿里云边缘安全加速（ESA）API 自动创建 TXT 记录，完成 Certbot DNS-01 验证，申请及续期普通域名和泛域名证书。
 
 本插件适用于 **NS 接入 ESA** 的域名，且 NS 委派须已生效；CNAME 接入仍需使用原 DNS 服务商的 Certbot 插件。参见 [ESA DNS 接入方式](https://help.aliyun.com/zh/edge-security-acceleration/esa/user-guide/dns-overview/)。
